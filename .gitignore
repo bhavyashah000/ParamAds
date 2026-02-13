@@ -1,0 +1,33 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+mysql-data/
+redis-data/
+
+# Backups
+backups/*.sql
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+ai-service/.venv/
+
+# Laravel
+backend/vendor/
+backend/node_modules/
+backend/storage/logs/*.log
+backend/.phpunit.result.cache
